@@ -17,7 +17,7 @@ import { MongooseModule } from '@nestjs/mongoose';
     }),
   ],
 })
-export class AppModule {}
+export class AppModule { }
 
 // Log to confirm successful loading of .env
 console.log('.env file successfully loaded');
