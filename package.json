@@ -4,5 +4,8 @@
     "@nestjs/mongoose": "^11.0.2",
     "dotenv": "^16.4.7",
     "mongoose": "^8.12.2"
+  },
+  "scripts": {
+    "start:dev": "npm --prefix ./backend run start:dev"
   }
 }
